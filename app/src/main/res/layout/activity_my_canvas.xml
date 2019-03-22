@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_canvas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".myCanvas">
+
+    <com.example.idunno.PaintView
+        android:id="@+id/paintView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <LinearLayout
+        android:layout_width="192dp"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_corners"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/primaryColorWheel"
+            android:layout_width="48dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:onClick="changeColor"
+            android:background="@color/transparent"
+            app:srcCompat="@drawable/primary_colors" />
+
+        <ImageView
+            android:id="@+id/paintBrush"
+            android:layout_width="53dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/transparent"
+            android:onClick="changeBrushSize"
+            app:srcCompat="@drawable/brush" />
+
+        <ImageView
+            android:id="@+id/blackX"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/transparent"
+            android:onClick="clearCanvas"
+            android:src="@drawable/black_x_image" />
+
+    </LinearLayout>
+
+</RelativeLayout>
