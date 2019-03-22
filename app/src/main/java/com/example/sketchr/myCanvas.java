@@ -69,7 +69,7 @@ public class myCanvas extends AppCompatActivity {
 
         /**Creating an alert dialog using the builder and myAlertStyle defined in styles.xml**/
         AlertDialog.Builder builder = new AlertDialog.Builder(myCanvas.this, R.style.myAlertStyle);
-        builder.setTitle(R.string.alert_mess);
+        builder.setTitle(R.string.pick_brush_size);
 
         final SeekBar seekbar = new SeekBar(this);
         /**Setting the current seekbar progress to the current size of the brush**/
