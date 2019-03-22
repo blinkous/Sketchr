@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".myCanvas">
 
-    <com.example.idunno.PaintView
+    <com.example.sketchr.PaintView
         android:id="@+id/paintView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
