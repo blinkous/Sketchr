@@ -2,4 +2,5 @@
     <string name="app_name">Sketchr</string>
     <string name="pick_brush_size">Pick a Brush Size</string>
     <string name="title_activity_start">Start</string>
+    <string name="draw">Draw</string>
 </resources>
